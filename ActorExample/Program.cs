@@ -64,6 +64,7 @@ namespace ActorExample {
         }
     }
 
+
     public class SampleObserver : IObserver<float> {
         private AverageCalculator calculator;
 

@@ -13,6 +13,8 @@ namespace SynchronizedExample {
             backgroundWorker.RunWorkerAsync();
 
             orderService.Process(2);
+
+            Console.ReadLine(); 
         }
     }
 

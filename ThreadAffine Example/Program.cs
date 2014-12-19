@@ -22,6 +22,8 @@ namespace ThreadAffine_Example {
                                            }
                                        };
             backgroundWorker.RunWorkerAsync();
+
+            Console.ReadLine();
         }
     }
 
@@ -31,7 +33,7 @@ namespace ThreadAffine_Example {
             Console.WriteLine("sequence {0}", sequence);
             Console.WriteLine("sleeping for 10s");
 
-            Thread.Sleep(new TimeSpan(0, 0, 10));
+            Thread.Sleep(new TimeSpan(0, 0, 5));
         }
     }
 }

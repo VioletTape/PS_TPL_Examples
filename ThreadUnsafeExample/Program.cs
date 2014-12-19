@@ -1,4 +1,5 @@
-﻿using System.Threading.Tasks;
+﻿using System;
+using System.Threading.Tasks;
 using PostSharp.Patterns.Threading;
 
 namespace ThreadUnsafeExample {
@@ -8,6 +9,8 @@ namespace ThreadUnsafeExample {
 
             Task.Factory.StartNew(() => Calc(averageCalculator));
             Task.Factory.StartNew(() => Calc(averageCalculator));
+
+            Console.ReadLine();
         }
 
         private static void Calc(AverageCalculator calculator) {

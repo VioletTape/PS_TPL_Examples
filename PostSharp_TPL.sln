@@ -24,6 +24,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{CE1ADD
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArchitecureValidation", "ArchitecureValidation\ArchitecureValidation.csproj", "{6D3A3FE3-F275-41A1-AD5A-E94EFE35B088}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Arch", "Arch", "{7C267658-EB47-461E-BA9A-8A35E0D8EA41}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -58,8 +62,15 @@ Global
 		{AD280DBE-5209-432D-9AE2-CAD819B76595}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD280DBE-5209-432D-9AE2-CAD819B76595}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD280DBE-5209-432D-9AE2-CAD819B76595}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D3A3FE3-F275-41A1-AD5A-E94EFE35B088}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D3A3FE3-F275-41A1-AD5A-E94EFE35B088}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D3A3FE3-F275-41A1-AD5A-E94EFE35B088}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D3A3FE3-F275-41A1-AD5A-E94EFE35B088}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6D3A3FE3-F275-41A1-AD5A-E94EFE35B088} = {7C267658-EB47-461E-BA9A-8A35E0D8EA41}
 	EndGlobalSection
 EndGlobal
